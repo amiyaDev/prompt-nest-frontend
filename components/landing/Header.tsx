@@ -8,10 +8,10 @@ export default function Header() {
           </span>
         </div>
         <nav className="hidden md:flex items-center gap-8">
-          <a className="text-indigo-500 font-semibold border-b-2 border-indigo-500 pb-1 font-sans text-sm tracking-tight leading-none" href="#">Features</a>
-          <a className="text-neutral-400 hover:text-white transition-colors font-sans text-sm font-medium tracking-tight leading-none" href="#">How it Works</a>
-          <a className="text-neutral-400 hover:text-white transition-colors font-sans text-sm font-medium tracking-tight leading-none" href="#">Pricing</a>
-          <a className="text-neutral-400 hover:text-white transition-colors font-sans text-sm font-medium tracking-tight leading-none" href="#">Enterprise</a>
+          <a className="text-indigo-500 font-semibold border-b-2 border-indigo-500 pb-1 font-sans text-sm tracking-tight leading-none" href="#features">Features</a>
+          <a className="text-neutral-400 hover:text-white transition-colors font-sans text-sm font-medium tracking-tight leading-none" href="#workflow">How it Works</a>
+          <a className="text-neutral-400 hover:text-white transition-colors font-sans text-sm font-medium tracking-tight leading-none" href="#pricing">Pricing</a>
+          <a className="text-neutral-400 hover:text-white transition-colors font-sans text-sm font-medium tracking-tight leading-none" href="#enterprise">Enterprise</a>
         </nav>
         <div className="flex items-center gap-4">
           <button className="text-neutral-400 hover:text-white transition-all text-sm font-medium leading-none">Login</button>
